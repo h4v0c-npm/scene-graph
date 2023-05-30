@@ -1,4 +1,4 @@
-import { Renderer } from '@h4v0c/ctx2d'
+import { Renderer } from '@h4v0c/renderer2d'
 import { vec4 } from 'gl-matrix';
 import { Sprite } from './sprite';
 import { Node } from './node';

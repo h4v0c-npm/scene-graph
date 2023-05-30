@@ -1,4 +1,4 @@
-import { Renderer, Texture } from '@h4v0c/ctx2d'
+import { Renderer, Texture } from '@h4v0c/renderer2d'
 import { vec2, vec4 } from 'gl-matrix';
 import { Node } from './node';
 

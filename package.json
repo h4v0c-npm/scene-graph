@@ -1,6 +1,6 @@
 {
     "name": "@h4v0c/sg2d",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -26,7 +26,7 @@
         "typescript": "^5.0.4"
     },
     "dependencies": {
-        "@h4v0c/ctx2d": "^1.0.1",
+        "@h4v0c/renderer2d": "^1.0.1",
         "@h4v0c/event-emitter": "^1.0.1",
         "@h4v0c/uid": "^1.1.0",
         "gl-matrix": "^3.4.3"
