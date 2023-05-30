@@ -6,35 +6,29 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "dev": "onchange './src/**/*' -- npm run build",
-        "build": "npm run clean && tsc && npm run copy-files",
-        "clean": "shx rm -rf ./dist",
-        "copy-files": "shx cp ./src/css/*.css ./dist/css/",
+        "build": "tsc",
         "prepublishOnly": "npm run build"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/h4v0c-npm/scene-graph.git"
+        "url": "git+https://github.com/h4v0c-npm/sg2d.git"
     },
     "keywords": [],
     "author": "John Wakley <john.wakley@icloud.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/h4v0c-npm/scene-graph/issues"
+        "url": "https://github.com/h4v0c-npm/sg2d/issues"
     },
-    "homepage": "https://github.com/h4v0c-npm/scene-graph#readme",
+    "homepage": "https://github.com/h4v0c-npm/sg2d#readme",
     "devDependencies": {
-        "@types/node": "^18.16.1",
-        "css-loader": "^6.7.3",
+        "@types/node": "^18.16.16",
         "onchange": "^7.1.0",
-        "raw-loader": "^4.0.2",
-        "style-loader": "^3.3.2",
         "typescript": "^5.0.4"
     },
     "dependencies": {
-        "@h4v0c/ctx2d": "^1.0.0",
+        "@h4v0c/ctx2d": "^1.0.1",
         "@h4v0c/event-emitter": "^1.0.1",
-        "@h4v0c/uid": "^1.0.1",
-        "gl-matrix": "^3.4.3",
-        "shx": "^0.3.4"
+        "@h4v0c/uid": "^1.1.0",
+        "gl-matrix": "^3.4.3"
     }
 }

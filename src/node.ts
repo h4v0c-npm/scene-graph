@@ -56,7 +56,7 @@ export class Node extends Base {
         this.children.forEach((child: Node) => child.update(time, deltaTime));
     }
 
-    render(renderer: Renderer) {
-        this.children.forEach((child: Node) => child.render(renderer));
+    render(renderer: Renderer, ...args: any[]) {
+        this.children.forEach((child: Node) => child.render(renderer, ...args));
     }
 }
