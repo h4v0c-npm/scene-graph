@@ -1,6 +1,6 @@
 {
     "name": "@h4v0c/sg2d",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -13,7 +13,13 @@
         "type": "git",
         "url": "git+https://github.com/h4v0c-npm/sg2d.git"
     },
-    "keywords": [],
+    "keywords": [
+        "scene",
+        "scene-graph",
+        "graph",
+        "2d",
+        "canvas"
+    ],
     "author": "John Wakley <john.wakley@icloud.com>",
     "license": "MIT",
     "bugs": {
